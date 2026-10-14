@@ -6,6 +6,15 @@
     <description>Updates for Sextant, a business's data warehouse native on the Mac.</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.1</title>
+      <pubDate>Wed, 14 Oct 2026 10:05:11 GMT</pubDate>
+      <sparkle:version>0.1.1</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>This release exists to prove that updating works.</p><p>0.1.0 shipped with Sparkle wired in and an update feed nobody had ever updated from. Nothing about the app has changed since: this is the same build at a new version number, published so that a copy of 0.1.0 can find it, verify its signature and install it — and so that the next release that does carry changes is not the first one to try.</p><p>If your copy offered you this update and you are reading these notes inside it, the thing it was meant to prove is proved.</p>]]></description>
+      <enclosure url="https://github.com/cuonggt/sextant-releases/releases/download/v0.1.1/Sextant-0.1.1.dmg" type="application/octet-stream" sparkle:edSignature="aufps1uca4jxkEGSQmxF33ATugvHbdDh1JjzeTSRoTbi1JQMxpI4HOu6G7YSzDPFD5tLN0Zlcdr3ksyGn/ENCQ==" length="116818217"/>
+    </item>
+    <item>
       <title>Version 0.1.0</title>
       <pubDate>Wed, 14 Oct 2026 05:28:55 GMT</pubDate>
       <sparkle:version>0.1.0</sparkle:version>

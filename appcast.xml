@@ -6,6 +6,15 @@
     <description>Updates for Sextant, a business's data warehouse native on the Mac.</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.2</title>
+      <pubDate>Thu, 15 Oct 2026 03:53:05 GMT</pubDate>
+      <sparkle:version>0.1.2</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>This release is about how Sextant looks, and how it reads out loud.</p><p>On a wide display a paragraph used to run to 140 characters and a row&#x27;s name sat a long way from its figure. Every screen now holds its content to a width you can read across and shares one spacing scale, so the app looks like one thing rather than eleven.</p><p>Some of that was not polish but bugs:</p><ul><li>Explore&#x27;s SQL editor took the whole window on a tall screen. It has a ceiling now, so you see about twice as many rows of your result.</li><li>The Get started checklist&#x27;s buttons sat at the far edge of the card, a long way from the step they belong to.</li><li>A paused briefing looked exactly like a running one.</li><li>The starter tiles on Models and Briefings began their text at three different heights.</li></ul><p>VoiceOver could not name a single control in Sextant before this release: every icon-only button and every switch announced nothing at all. All of them are named now, across thirty screens, sheets and settings panes, each one checked against the accessibility tree a screen reader actually reads, and the SQL editor says what it is when you land in it. Where the app animates, reduced motion is honoured.</p><p>One fix underneath the surface: half of all timestamps written into a project&#x27;s file were a millisecond early, so a project saved twice never compared cleanly against itself. Nothing misbehaved, but no one could diff a project file. They are written correctly from now on.</p><p>Requires macOS 26.</p>]]></description>
+      <enclosure url="https://github.com/cuonggt/sextant-releases/releases/download/v0.1.2/Sextant-0.1.2.dmg" type="application/octet-stream" sparkle:edSignature="7B+QeJXqYFogjRr3vSoMxMDV5CRIR4nYfUyfvRC3CdHJiBesybo/q+FHqBTPfuJaZ84QAT/cWtrvB8Zd/JK8BA==" length="116913961"/>
+    </item>
+    <item>
       <title>Version 0.1.1</title>
       <pubDate>Wed, 14 Oct 2026 10:05:11 GMT</pubDate>
       <sparkle:version>0.1.1</sparkle:version>
